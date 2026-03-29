@@ -83,6 +83,7 @@ plots/        → Generated visualizations and CNN diagram
 README.md     → Project documentation
 requirements.txt → Dependencies
 ```
+---
 
 ## How to Run
 
@@ -129,6 +130,8 @@ Note:
 
 - Plots will open in separate windows
 - Ensure required libraries are installed
+
+---
 
 ## Output
 
