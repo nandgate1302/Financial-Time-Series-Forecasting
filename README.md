@@ -74,9 +74,63 @@ The project demonstrates that financial time series can be effectively analyzed 
 
 ---
 
+## Repository Structure
+
+```
+notebooks/    → Jupyter notebook version (recommended)
+src/          → Python script version
+plots/        → Generated visualizations and CNN diagram
+README.md     → Project documentation
+requirements.txt → Dependencies
+```
+
 ## How to Run
 
-1. Install dependencies:
-   ``pip install yfinance scipy matplotlib scikit-learn tensorflow``
+1. Clone the Repository
 
-2. Run the notebook ``financial_time_series_forecasting.ipynb``
+```bash
+git clone https://github.com/nandgate1302/Financial-Time-Series-Forecasting.git
+cd Financial-Time-Series-Forecasting
+```
+2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+### Option 1: Run using Jupyter Notebook (Recommended)
+
+```bash
+jupyter notebook
+```
+Then open: 
+```bash
+notebooks/financial_time_series_forecasting.ipynb
+```
+This will:
+
+- Execute all steps interactively
+- Show plots (time domain, FFT, spectrograms)
+- Display results clearly
+
+### Option 2: Run using Python Script
+
+```bash
+python src/financial_time_series_forecasting.py
+```
+
+This will:
+
+- Run the full pipeline
+- Train the CNN model
+- Output MSE values in terminal
+- Save CNN architecture diagram (cnn_arch_diag.png)
+
+Note:
+
+- Plots will open in separate windows
+- Ensure required libraries are installed
+
+## Output
+
+- Spectrogram and analysis plots are stored in the ```plots/``` directory
+- CNN architecture diagram is saved as: ```plots/cnn_arch_diag.png``` 
