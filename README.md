@@ -77,11 +77,11 @@ The project demonstrates that financial time series can be effectively analyzed 
 ## Repository Structure
 
 ```
-notebooks/    → Jupyter notebook version (recommended)
-src/          → Python script version
-plots/        → Generated visualizations and CNN diagram
-README.md     → Project documentation
-requirements.txt → Dependencies
+notebooks/          → Jupyter notebook version (recommended)
+src/                → Python script version
+plots/              → Generated visualizations and CNN diagram
+README.md           → Project documentation
+requirements.txt    → Dependencies
 ```
 ---
 
